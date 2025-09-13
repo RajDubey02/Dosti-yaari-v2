@@ -2,13 +2,26 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Download, Heart, Sparkles } from 'lucide-react';
 import AnimatedHearts from './AnimatedHearts';
+import HeroImage from '../assets/_Red and White Festive Photo First Date tips YouTube Thumbnail.png'; // Adjust the file extension (.jpg, .png, etc.) as needed
+
 
 const Hero = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Gradient Background */}
-      <div className="absolute inset-0 bg-gradient-to-br from-pink-400 via-red-500 to-purple-600"></div>
-      
+      {/* <div className="absolute inset-0 bg-gradient-to-br from-pink-400 via-red-500 to-purple-600"></div> */}
+        <div
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+          style={{
+            backgroundImage: `url(${HeroImage})`,
+            width: '100vw',
+            height: '100vh', // Minimum height, will extend to buttons
+            zIndex: 0,
+          }}
+        >
+          {/* Overlay to ensure text readability */}
+          <div className="absolute inset-0 bg-black/0"></div>
+        </div>
       {/* Animated Background Elements */}
       <AnimatedHearts />
       
