@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Menu, X, Heart } from 'lucide-react';
+import Logo from "../assets/IMG_2149__5_-removebg-preview.png"
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -22,8 +23,10 @@ const Navbar = () => {
       animate={{ y: 0, opacity: 1 }}
       className={`fixed top-0 w-full z-50 transition-all duration-500 ${
         isScrolled 
-          ? 'bg-gradient-to-r from-pink-500/95 via-red-500/95 to-purple-500/95 backdrop-blur-lg shadow-xl' 
-          : 'bg-transparent'
+          // ? 'bg-gradient-to-r from-pink-500/95 via-red-500/95 to-purple-500/95 backdrop-blur-lg shadow-xl' 
+          ? 'bg-white/30 backdrop-blur-lg shadow-xl' 
+          : 'bg-white/50 backdrop-blur-lg shadow-xl'
+          // : 'bg-transparent'
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -33,8 +36,10 @@ const Navbar = () => {
             className="flex items-center space-x-2"
             whileHover={{ scale: 1.05 }}
           >
-            <Heart className="w-8 h-8 text-pink-300 fill-current" />
-            <span className="text-2xl font-bold text-white tracking-wide" style={{ fontFamily: 'Dancing Script, cursive' }}>
+            <img src={Logo} alt="" 
+            className='w-28 h-28 mt-4'
+            />
+            <span className="text-2xl font-extrabold text-black tracking-wide" style={{ fontFamily: 'Dancing Script, cursive' }}>
               Dosti Yari
             </span>
           </motion.div>
@@ -45,7 +50,8 @@ const Navbar = () => {
               <motion.a
                 key={link}
                 href={`#${link.toLowerCase()}`}
-                className="text-white/90 hover:text-white font-medium relative group cursor-pointer"
+                className="text-black hover:text-white font-semibold relative group cursor-pointer"
+                // className="text-black hover:text-white font-bold relative group cursor-pointer"
                 whileHover={{ y: -2 }}
               >
                 {link}
