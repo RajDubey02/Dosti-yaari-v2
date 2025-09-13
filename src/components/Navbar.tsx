@@ -25,7 +25,7 @@ const Navbar = () => {
         isScrolled 
           // ? 'bg-gradient-to-r from-pink-500/95 via-red-500/95 to-purple-500/95 backdrop-blur-lg shadow-xl' 
           ? 'bg-white/30 backdrop-blur-lg shadow-xl' 
-          : 'bg-white/50 backdrop-blur-lg shadow-xl'
+          : 'bg-white/80 backdrop-blur-lg shadow-xl'
           // : 'bg-transparent'
       }`}
     >
@@ -50,7 +50,7 @@ const Navbar = () => {
               <motion.a
                 key={link}
                 href={`#${link.toLowerCase()}`}
-                className="text-black hover:text-white font-semibold relative group cursor-pointer"
+                className="text-black hover:text-[#6811e1] font-semibold relative group cursor-pointer"
                 // className="text-black hover:text-white font-bold relative group cursor-pointer"
                 whileHover={{ y: -2 }}
               >
