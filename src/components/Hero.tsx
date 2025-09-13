@@ -109,7 +109,7 @@ const Hero = () => {
                 boxShadow: '0 20px 60px rgba(255, 126, 185, 0.4)',
               }}
               whileTap={{ scale: 0.95 }}
-              className="group bg-gradient-to-r from-pink-500 to-red-500 text-white px-8 py-4 rounded-2xl font-bold text-lg shadow-2xl hover:shadow-pink-500/30 transition-all duration-300 flex items-center space-x-3 min-w-[200px]"
+              className="group bg-gradient-to-r from-purple-500 to-pink-500 text-white px-8 py-4 rounded-2xl font-bold text-lg shadow-2xl hover:shadow-pink-500/30 transition-all duration-300 flex items-center space-x-3 min-w-[200px]"
             >
               <Download className="w-6 h-6 group-hover:animate-bounce" />
               <span>Boys App</span>
@@ -122,7 +122,7 @@ const Hero = () => {
                 boxShadow: '0 20px 60px rgba(162, 89, 255, 0.4)',
               }}
               whileTap={{ scale: 0.95 }}
-              className="group bg-gradient-to-r from-purple-500 to-pink-500 text-white px-8 py-4 rounded-2xl font-bold text-lg shadow-2xl hover:shadow-purple-500/30 transition-all duration-300 flex items-center space-x-3 min-w-[200px]"
+              className="group bg-gradient-to-r from-pink-500 to-red-500  text-white px-8 py-4 rounded-2xl font-bold text-lg shadow-2xl hover:shadow-purple-500/30 transition-all duration-300 flex items-center space-x-3 min-w-[200px]"
             >
               <Download className="w-6 h-6 group-hover:animate-bounce" />
               <span>Girls App</span>

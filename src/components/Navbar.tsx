@@ -37,7 +37,7 @@ const Navbar = () => {
             whileHover={{ scale: 1.05 }}
           >
             <img src={Logo} alt="" 
-            className='w-28 h-28 mt-4'
+            className='md:w-28 md:h-28 mt-4   w-24 h-24 '
             />
             <span className="text-2xl font-extrabold text-black tracking-wide" style={{ fontFamily: 'Dancing Script, cursive' }}>
               Dosti Yari
