@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { Download, Heart, Sparkles } from 'lucide-react';
 import AnimatedHearts from './AnimatedHearts';
 import HeroImage from '../assets/_Red and White Festive Photo First Date tips YouTube Thumbnail.png'; // Adjust the file extension (.jpg, .png, etc.) as needed
+import HeroImage1 from '../assets/WhatsApp Image 2025-09-13 at 7.13.49 PM.jpeg'; // Adjust the file extension (.jpg, .png, etc.) as needed
 
 
 const Hero = () => {
@@ -11,7 +12,7 @@ const Hero = () => {
       {/* Gradient Background */}
       {/* <div className="absolute inset-0 bg-gradient-to-br from-pink-400 via-red-500 to-purple-600"></div> */}
         <div
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat md:block"
           style={{
             backgroundImage: `url(${HeroImage})`,
             width: '100vw',
@@ -22,6 +23,21 @@ const Hero = () => {
           {/* Overlay to ensure text readability */}
           <div className="absolute inset-0 bg-black/0"></div>
         </div>
+
+
+ <div
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat md:hidden"
+          style={{
+            backgroundImage: `url(${HeroImage1})`,
+            width: '100vw',
+            height: '100vh', // Minimum height, will extend to buttons
+            zIndex: 0,
+          }}
+        >
+          {/* Overlay to ensure text readability */}
+          <div className="absolute inset-0 bg-black/0"></div>
+        </div>
+
       {/* Animated Background Elements */}
       <AnimatedHearts />
       
