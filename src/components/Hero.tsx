@@ -103,6 +103,7 @@ const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.8, duration: 0.8 }}
           >
+             <a href="https://github.com/RajDubey02/My-apk/releases/download/v1.0.0/app-release.apk">
             <motion.button
               whileHover={{ 
                 scale: 1.05,
@@ -115,8 +116,8 @@ const Hero = () => {
               <span>Boys App</span>
               <Sparkles className="w-5 h-5 animate-pulse" />
             </motion.button>
-
-            <motion.button
+</a>
+            {/* <motion.button
               whileHover={{ 
                 scale: 1.05,
                 boxShadow: '0 20px 60px rgba(162, 89, 255, 0.4)',
@@ -127,7 +128,7 @@ const Hero = () => {
               <Download className="w-6 h-6 group-hover:animate-bounce" />
               <span>Girls App</span>
               <Heart className="w-5 h-5 animate-pulse fill-current" />
-            </motion.button>
+            </motion.button> */}
           </motion.div>
         </motion.div>
       </div>

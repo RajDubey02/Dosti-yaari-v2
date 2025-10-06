@@ -4,7 +4,7 @@ import { Download, Heart, Users, Sparkles } from 'lucide-react';
 
 const CTA = () => {
   return (
-    <section className="py-20 bg-gradient-to-br from-pink-500 via-red-500 to-purple-600 relative overflow-hidden">
+    <section id='download' className="py-20 bg-gradient-to-br from-pink-500 via-red-500 to-purple-600 relative overflow-hidden">
       {/* Background Animation */}
       <div className="absolute inset-0">
         {[...Array(30)].map((_, i) => (
@@ -99,6 +99,7 @@ const CTA = () => {
             viewport={{ once: true }}
             transition={{ delay: 0.8, duration: 0.8 }}
           >
+              <a href="https://github.com/RajDubey02/My-apk/releases/download/v1.0.0/app-release.apk">
             <motion.button
               whileHover={{ 
                 scale: 1.05,
@@ -119,12 +120,14 @@ const CTA = () => {
               }}
               className="group bg-white text-pink-600 px-10 py-4 rounded-2xl font-bold text-lg shadow-2xl hover:bg-pink-50 transition-all duration-300 flex items-center space-x-3 min-w-[220px]"
             >
+            
               <Download className="w-6 h-6 group-hover:animate-bounce" />
               <span>Boys App</span>
               <Sparkles className="w-5 h-5 animate-pulse" />
+            
             </motion.button>
-
-            <motion.button
+  </a>
+            {/* <motion.button
               whileHover={{ 
                 scale: 1.05,
                 boxShadow: '0 20px 60px rgba(255, 255, 255, 0.3)',
@@ -148,7 +151,7 @@ const CTA = () => {
               <Download className="w-6 h-6 group-hover:animate-bounce" />
               <span>Girls App</span>
               <Heart className="w-5 h-5 animate-pulse fill-current" />
-            </motion.button>
+            </motion.button> */}
           </motion.div>
 
           <motion.p

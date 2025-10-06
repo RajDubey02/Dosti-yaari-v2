@@ -198,6 +198,8 @@ const AppShowcase = () => {
               ))}
             </div>
 
+              <a href="https://github.com/RajDubey02/My-apk/releases/download/v1.0.0/app-release.apk">
+
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
@@ -205,6 +207,7 @@ const AppShowcase = () => {
             >
               Download Now
             </motion.button>
+            </a>
           </motion.div>
 
           {/* Image Replacement */}
