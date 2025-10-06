@@ -364,6 +364,8 @@ const Navbar = () => {
           </div>
 
           {/* CTA Button */}
+                <a href="https://github.com/RajDubey02/My-apk/releases/download/v1.0.0/app-release.apk">
+
           <motion.button
             whileHover={{ scale: 1.05, boxShadow: '0 10px 40px rgba(255, 126, 185, 0.4)' }}
             whileTap={{ scale: 0.95 }}
@@ -381,6 +383,7 @@ const Navbar = () => {
           >
             {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
           </motion.button>
+          </a>
         </div>
 
         {/* Mobile Menu */}
@@ -404,6 +407,7 @@ const Navbar = () => {
                     <span>{link}</span>
                   </motion.div>
                 ))}
+                <a href="https://github.com/RajDubey02/My-apk/releases/download/v1.0.0/app-release.apk">
                 <motion.button
                   className="w-full bg-gradient-to-r from-pink-400 to-purple-500 text-white px-6 py-3 rounded-full font-semibold mt-4"
                   whileHover={{ scale: 1.05 }}
@@ -411,6 +415,7 @@ const Navbar = () => {
                 >
                   Join Now
                 </motion.button>
+                </a>
               </div>
             </motion.div>
           )}
