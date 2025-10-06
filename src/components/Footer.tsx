@@ -430,7 +430,7 @@ const Footer = () => {
 
             <div className="space-y-2">
               <p className="text-gray-300 text-sm md:text-base">
-                <span className="font-medium">Email:</span> support@dostiyaari.com
+                <span className="font-medium">Email:</span> support@dostiyaari.fun
               </p>
               <p className="text-gray-300 text-sm md:text-base">
                 <span className="font-medium">Support:</span> +91 82913 89774

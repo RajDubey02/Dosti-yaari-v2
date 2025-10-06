@@ -25,10 +25,10 @@ export default function ContactUs() {
             <div className="flex-1">
               <h3 className="text-sm font-semibold text-gray-700 mb-1">Email</h3>
               <a 
-                href="mailto:support@dostiyaari.com"
+                href="mailto:support@dostiyaari.fun"
                 className="text-blue-600 hover:text-blue-700 font-medium break-all"
               >
-               support@dostiyaari.com
+               support@dostiyaari.fun
               </a>
             </div>
           </div>

@@ -125,7 +125,7 @@
 //             <h2 className="text-2xl font-semibold text-gray-800">10. Contact Us</h2>
 //             <p className="text-gray-600">
 //               If you have questions or concerns about this Privacy Policy, please contact us at:<br />
-//               📧 Email: support@dostiyaari.com<br />
+//               📧 Email: support@dostiyaari.fun<br />
 //               📱 App Name: Dosti Yaari
 //             </p>
 //           </div>
@@ -458,7 +458,7 @@
 //                 <div className="space-y-2">
 //                   <p className="flex items-center gap-2 text-lg">
 //                     <span>📧</span>
-//                     <span className="font-semibold">support@dostiyaari.com</span>
+//                     <span className="font-semibold">support@dostiyaari.fun</span>
 //                   </p>
 //                   <p className="flex items-center gap-2 text-lg">
 //                     <span>📱</span>
@@ -796,7 +796,7 @@ const PrivacyPolicy: React.FC = () => {
                 <div className="space-y-2">
                   <p className="flex items-center gap-2 text-base sm:text-lg">
                     <span>📧</span>
-                    <span className="font-semibold">support@dostiyaari.com</span>
+                    <span className="font-semibold">support@dostiyaari.fun</span>
                   </p>
                   <p className="flex items-center gap-2 text-base sm:text-lg">
                     <span>📱</span>
